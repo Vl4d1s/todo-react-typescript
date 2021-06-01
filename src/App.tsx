@@ -1,7 +1,7 @@
-import "./App.css";
+import Todos from "./components/Todos";
 
 function App() {
-  return <div>App!</div>;
+  return <Todos items={["Learn React", "Learn TypeScript"]} />;
 }
 
 export default App;
